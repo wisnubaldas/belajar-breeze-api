@@ -1,19 +1,23 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
+import vituum from 'vituum'
+import pug from '@vituum/vite-plugin-pug'
 
 export default defineConfig({
     plugins: [
+        vituum(), 
+        pug({
+            root: './src'
+        }),
         laravel({
             input: [
-                'resources/css/app.css', 
-                'resources/js/app.js'
-            ],
+                ],
             refresh: true,
         }),
     ],
     resolve: {
         alias: {
-            '@assets': '/resources/assets',
+            '@': './src',
         },
     },
 });

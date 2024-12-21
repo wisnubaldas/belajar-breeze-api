@@ -1,0 +1,48 @@
+#header.app-header
+    .navbar-header(style="width:auto;")
+        a.navbar-brand(href='#')
+            span.navbar-logo
+            |  
+            b CTOS
+            | &ensp;Mitra Adira Utama
+        button.navbar-mobile-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#top-navbar')
+            span.fa-stack.fa-lg
+                i.far.fa-square.fa-stack-2x
+                i.fa.fa-cog.fa-stack-1x.mt-1px
+        button.navbar-mobile-toggler(type='button', data-toggle='app-sidebar-mobile')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+    #top-navbar.collapse.d-md-block.me-auto
+          .navbar-nav
+            .navbar-item.dropdown.dropdown-lg(x-data="{ isHovered: false }")
+              a.navbar-link.dropdown-toggle.d-flex.align-items-center(
+                                    href='#', 
+                                    data-bs-toggle='dropdown' 
+                                    @mouseover="isHovered = true" 
+                                    @mouseout="isHovered = false"  
+                                    :class="{ 'text-purple-500 fw-800 fs-3': isHovered, 'text-black-500': !isHovered }")
+                i.fa.fa-th-large.fa-fw.me-1
+                span.d-lg-inline.d-md-none Start Here
+                b.caret.ms-1
+              .dropdown-menu.dropdown-menu-lg
+                #mega-menu.row
+                
+    .navbar-nav
+        .navbar-item.navbar-form
+            form(action='', method='POST', name='search')
+                .form-group
+                    input.form-control(type='text', placeholder='Enter keyword')
+                    button.btn.btn-search(type='submit')
+                        i.fa.fa-search
+        .navbar-item.navbar-user.dropdown
+            a.navbar-link.dropdown-toggle.d-flex.align-items-center(href='#', data-bs-toggle='dropdown')
+                img(src='https://cdn-icons-png.flaticon.com/512/3480/3480315.png', alt='')
+                span
+                    span.d-none.d-md-inline Adam Schwartz
+                    b.caret
+            .dropdown-menu.dropdown-menu-end.me-1
+                a.dropdown-item(href='javascript:;') Setting
+                .dropdown-divider
+                x-logout.dropdown-item(:action="route('logout')")
+                    | Log Out

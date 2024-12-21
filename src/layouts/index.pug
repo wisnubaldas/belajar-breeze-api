@@ -1,0 +1,40 @@
+doctype html
+head
+    meta(charset='utf-8')
+    title CTOS's
+    meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport')
+    meta(content='' name='description')
+    meta(content='' name='author')
+    meta(name='csrf-token' content="")
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet')
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css", integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy", crossorigin="anonymous")
+    link(rel="stylesheet" href="/src/styles/main.css")
+    block css
+body 
+    #app.app.app-header-fixed.app-sidebar-fixed.app-without-sidebar
+        include header.pug
+        include menu.pug
+        #content.app-content
+            block content 
+        a.btn.btn-icon.btn-circle.btn-success.btn-scroll-to-top(href='javascript:;' data-toggle='scroll-to-top')
+            i.fa.fa-angle-up
+     
+    script(type="module", src="/src/script/vendor.min.js")  
+    script(type="module", src="/src/script/app.min.js")  
+    script(type="module", src="/src/script/theme/default.min.js")
+    script(type="module", src="/src/script/main.js")
+    script. 
+
+        //- Baldas.lib.menuTree(function(r){
+        //-     let menu = Baldas.Template.menuHeader({menu:r});
+        //-     $('#mega-menu').html(menu);
+        //- });
+
+        //- $('#mega-menu').on('click','.child-tmbl',function(){
+        //-     const wgetMenu = $(this).data('json');
+        //-     const banke = Baldas.Template.dinamicMenu({data:wgetMenu})
+        //-     Baldas.lib.animateCSS('#content','backInRight')
+        //-     $('#content').html(banke)
+        //- });
+
+    block js

@@ -1,0 +1,14 @@
+doctype html
+html
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width")
+    title=title
+    link(rel="stylesheet" href="/src/styles/main.css")
+body
+    h1=title
+    include ../components/nav.pug
+    img(src="/src/assets/logo.svg" style="max-width: 400px")
+    script(type="module", src="/src/script/vendor.min.js")  
+    script(type="module", src="/src/script/app.min.js")  
+    script(type="module", src="/src/script/theme/default.min.js")
+
