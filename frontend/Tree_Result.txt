@@ -1,0 +1,1508 @@
+C:\LARAGON\WWW\BELAJAR-BREEZE-API\FRONTEND
+|   .gitignore
+|   ok.bat
+|   package-lock.json
+|   package.json
+|   postcss.config.js
+|   tailwind.config.js
+|   Tree_Result.txt
+|   vite.config.js
+|   
++---assets
+|   |   logo.svg
+|   |   
+|   +---cover
+|   |       cover-scrum-board.png
+|   |       
+|   +---flag
+|   |       cn.jpg
+|   |       de.jpg
+|   |       fr.jpg
+|   |       jp.jpg
+|   |       us.jpg
+|   |       
+|   +---gallery
+|   |       gallery-1-thumb.jpg
+|   |       gallery-1.jpg
+|   |       gallery-10-thumb.jpg
+|   |       gallery-10.jpg
+|   |       gallery-11-thumb.jpg
+|   |       gallery-11.jpg
+|   |       gallery-12-thumb.jpg
+|   |       gallery-12.jpg
+|   |       gallery-13-thumb.jpg
+|   |       gallery-13.jpg
+|   |       gallery-14-thumb.jpg
+|   |       gallery-14.jpg
+|   |       gallery-15-thumb.jpg
+|   |       gallery-15.jpg
+|   |       gallery-16-thumb.jpg
+|   |       gallery-16.jpg
+|   |       gallery-17-thumb.jpg
+|   |       gallery-17.jpg
+|   |       gallery-18-thumb.jpg
+|   |       gallery-19-thumb.jpg
+|   |       gallery-2-thumb.jpg
+|   |       gallery-2.jpg
+|   |       gallery-20-thumb.jpg
+|   |       gallery-21-thumb.jpg
+|   |       gallery-22-thumb.jpg
+|   |       gallery-23-thumb.jpg
+|   |       gallery-24-thumb.jpg
+|   |       gallery-25-thumb.jpg
+|   |       gallery-26-thumb.jpg
+|   |       gallery-27-thumb.jpg
+|   |       gallery-28-thumb.jpg
+|   |       gallery-29-thumb.jpg
+|   |       gallery-3-thumb.jpg
+|   |       gallery-3.jpg
+|   |       gallery-30-thumb.jpg
+|   |       gallery-31-thumb.jpg
+|   |       gallery-32-thumb.jpg
+|   |       gallery-33-thumb.jpg
+|   |       gallery-34-thumb.jpg
+|   |       gallery-35-thumb.jpg
+|   |       gallery-36-thumb.jpg
+|   |       gallery-37-thumb.jpg
+|   |       gallery-38-thumb.jpg
+|   |       gallery-39-thumb.jpg
+|   |       gallery-4-thumb.jpg
+|   |       gallery-4.jpg
+|   |       gallery-40-thumb.jpg
+|   |       gallery-41-thumb.jpg
+|   |       gallery-42-thumb.jpg
+|   |       gallery-43-thumb.jpg
+|   |       gallery-44-thumb.jpg
+|   |       gallery-45-thumb.jpg
+|   |       gallery-46-thumb.jpg
+|   |       gallery-47-thumb.jpg
+|   |       gallery-48-thumb.jpg
+|   |       gallery-49-thumb.jpg
+|   |       gallery-5-thumb.jpg
+|   |       gallery-5.jpg
+|   |       gallery-50-thumb.jpg
+|   |       gallery-51-thumb.jpg
+|   |       gallery-51.jpg
+|   |       gallery-52-thumb.jpg
+|   |       gallery-52.jpg
+|   |       gallery-53-thumb.jpg
+|   |       gallery-53.jpg
+|   |       gallery-54-thumb.jpg
+|   |       gallery-54.jpg
+|   |       gallery-55-thumb.jpg
+|   |       gallery-55.jpg
+|   |       gallery-56-thumb.jpg
+|   |       gallery-56.jpg
+|   |       gallery-57-thumb.jpg
+|   |       gallery-58-thumb.jpg
+|   |       gallery-59-thumb.jpg
+|   |       gallery-6-thumb.jpg
+|   |       gallery-6.jpg
+|   |       gallery-60-thumb.jpg
+|   |       gallery-61-thumb.jpg
+|   |       gallery-62-thumb.jpg
+|   |       gallery-63-thumb.jpg
+|   |       gallery-64-thumb.jpg
+|   |       gallery-65-thumb.jpg
+|   |       gallery-66-thumb.jpg
+|   |       gallery-67-thumb.jpg
+|   |       gallery-68-thumb.jpg
+|   |       gallery-69-thumb.jpg
+|   |       gallery-7-thumb.jpg
+|   |       gallery-7.jpg
+|   |       gallery-70-thumb.jpg
+|   |       gallery-8-thumb.jpg
+|   |       gallery-8.jpg
+|   |       gallery-9-thumb.jpg
+|   |       gallery-9.jpg
+|   |       gallery-portrait-11-thumb.jpg
+|   |       
+|   +---login-bg
+|   |       login-bg-1-thumb.jpg
+|   |       login-bg-10-thumb.jpg
+|   |       login-bg-11.jpg
+|   |       login-bg-12.jpg
+|   |       login-bg-13.jpg
+|   |       login-bg-14.jpg
+|   |       login-bg-15.jpg
+|   |       login-bg-16.jpg
+|   |       login-bg-17.jpg
+|   |       login-bg-2-thumb.jpg
+|   |       login-bg-3-thumb.jpg
+|   |       login-bg-4-thumb.jpg
+|   |       login-bg-7-thumb.jpg
+|   |       login-bg-9.jpg
+|   |       
+|   +---logo
+|   |       logo-admin-apple.png
+|   |       logo-admin-facebook.png
+|   |       logo-admin-google.png
+|   |       logo-admin-transparent.png
+|   |       logo-admin.png
+|   |       logo-bs5.png
+|   |       
+|   +---pos
+|   |       icon-table-black.svg
+|   |       icon-table.svg
+|   |       logo-white.svg
+|   |       logo.svg
+|   |       product-1.jpg
+|   |       product-10.jpg
+|   |       product-11.jpg
+|   |       product-12.jpg
+|   |       product-13.jpg
+|   |       product-14.jpg
+|   |       product-15.jpg
+|   |       product-16.jpg
+|   |       product-17.jpg
+|   |       product-2.jpg
+|   |       product-3.jpg
+|   |       product-4.jpg
+|   |       product-5.jpg
+|   |       product-6.jpg
+|   |       product-7.jpg
+|   |       product-8.jpg
+|   |       product-9.jpg
+|   |       
+|   +---product
+|   |       product-1.png
+|   |       product-10.jpg
+|   |       product-11.jpg
+|   |       product-12.jpg
+|   |       product-2.png
+|   |       product-3.png
+|   |       product-4.png
+|   |       product-5.png
+|   |       product-6.png
+|   |       product-7.png
+|   |       product-8.jpg
+|   |       product-9.jpg
+|   |       product-preview-iphone.png
+|   |       product-preview-sm.jpg
+|   |       product-preview.jpg
+|   |       
+|   +---svg
+|   |       img-1.svg
+|   |       img-2.svg
+|   |       img-3.svg
+|   |       img-4.svg
+|   |       
+|   +---theme
+|   |       apple.jpg
+|   |       blog.jpg
+|   |       corporate.jpg
+|   |       default.jpg
+|   |       e-commerce.jpg
+|   |       facebook.jpg
+|   |       forum.jpg
+|   |       google.jpg
+|   |       material.jpg
+|   |       one-page-parallax.jpg
+|   |       transparent.jpg
+|   |       
+|   +---user
+|   |       user-1.jpg
+|   |       user-10.jpg
+|   |       user-11.jpg
+|   |       user-12.jpg
+|   |       user-13.jpg
+|   |       user-14.jpg
+|   |       user-2.jpg
+|   |       user-3.jpg
+|   |       user-4.jpg
+|   |       user-5.jpg
+|   |       user-6.jpg
+|   |       user-7.jpg
+|   |       user-8.jpg
+|   |       user-9.jpg
+|   |       
+|   \---version
+|           ajax.jpg
+|           angular10x.jpg
+|           angular1x.jpg
+|           dotnet.jpg
+|           html.jpg
+|           laravel.jpg
+|           reactjs.jpg
+|           vuejs.jpg
+|           
++---dist
+|   |   index.html
+|   |   
+|   \---assets
+|           bg-login-Cv_wtOh0.png
+|           coming-soon-CinKFnD-.jpg
+|           cover-pattern-aPGoMYev.png
+|           cover-sidebar-DshyVW1h.jpg
+|           cover-sidebar-user-CRoSXazA.jpg
+|           error-page-pattern-CvK8bDV8.png
+|           fa-brands-400-B2fI82dS.svg
+|           fa-brands-400-BrNqf9Ps.woff
+|           fa-brands-400-CQ9wNAI5.woff2
+|           fa-brands-400-D3wvMVi2.eot
+|           fa-brands-400-GzH33SHB.ttf
+|           fa-regular-400-C6K8o2wy.svg
+|           fa-regular-400-CeL5tBMC.woff2
+|           fa-regular-400-D6psiunw.ttf
+|           fa-regular-400-DC-0mCsK.eot
+|           fa-regular-400-ypGq6Ymr.woff
+|           fa-solid-900-BttSODt4.ttf
+|           fa-solid-900-BzItJ-zV.svg
+|           fa-solid-900-Ch--Nxnh.woff
+|           fa-solid-900-ClZaRJOS.woff2
+|           fa-solid-900-Dqbwa24Z.eot
+|           index-CsVtph7_.css
+|           profile-cover-DAGN_a7z.jpg
+|           ui-icons_444444_256x240-BktWd2K1.png
+|           ui-icons_555555_256x240-CY2OhBSZ.png
+|           ui-icons_777620_256x240-Buo7Ye4l.png
+|           ui-icons_777777_256x240-Bt1TLvgL.png
+|           ui-icons_cc0000_256x240-DZOpME74.png
+|           ui-icons_ffffff_256x240-Czd6ep6m.png
+|           
++---plugins
+|   +---@fullcalendar
+|   |   +---bootstrap
+|   |   |       main.global.js
+|   |   |       main.min.css
+|   |   |       
+|   |   +---common
+|   |   |       main.min.css
+|   |   |       
+|   |   +---core
+|   |   |       main.global.js
+|   |   |       
+|   |   +---daygrid
+|   |   |       main.global.js
+|   |   |       main.min.css
+|   |   |       
+|   |   +---interaction
+|   |   |       main.global.js
+|   |   |       
+|   |   +---list
+|   |   |       main.global.js
+|   |   |       main.min.css
+|   |   |       
+|   |   \---timegrid
+|   |           main.global.js
+|   |           main.min.css
+|   |           
+|   +---@highlightjs
+|   |   \---cdn-assets
+|   |           highlight.min.js
+|   |           
+|   +---abpetkov-powerange
+|   |   \---dist
+|   |           powerange.min.css
+|   |           powerange.min.js
+|   |           
+|   +---angular
+|   |       angular.min.js
+|   |       
+|   +---angular-ui-bootstrap
+|   |   \---dist
+|   |           ui-bootstrap-tpls.js
+|   |           
+|   +---angular-ui-router
+|   |   \---release
+|   |           angular-ui-router.min.js
+|   |           stateEvents.min.js
+|   |           
+|   +---apexcharts
+|   |   \---dist
+|   |           apexcharts.min.js
+|   |           
+|   +---blueimp-canvas-to-blob
+|   |   \---js
+|   |           canvas-to-blob.js
+|   |           
+|   +---blueimp-file-upload
+|   |   +---css
+|   |   |       jquery.fileupload-ui.css
+|   |   |       jquery.fileupload.css
+|   |   |       
+|   |   +---img
+|   |   |       loading.gif
+|   |   |       progressbar.gif
+|   |   |       
+|   |   \---js
+|   |       |   jquery.fileupload-audio.js
+|   |       |   jquery.fileupload-image.js
+|   |       |   jquery.fileupload-process.js
+|   |       |   jquery.fileupload-ui.js
+|   |       |   jquery.fileupload-validate.js
+|   |       |   jquery.fileupload-video.js
+|   |       |   jquery.fileupload.js
+|   |       |   jquery.iframe-transport.js
+|   |       |   
+|   |       \---vendor
+|   |               jquery.ui.widget.js
+|   |               
+|   +---blueimp-gallery
+|   |   +---css
+|   |   |       blueimp-gallery.min.css
+|   |   |       
+|   |   +---img
+|   |   |       close.png
+|   |   |       close.svg
+|   |   |       error.png
+|   |   |       error.svg
+|   |   |       loading.gif
+|   |   |       loading.svg
+|   |   |       next.png
+|   |   |       next.svg
+|   |   |       play-pause.png
+|   |   |       play-pause.svg
+|   |   |       prev.png
+|   |   |       prev.svg
+|   |   |       video-play.png
+|   |   |       video-play.svg
+|   |   |       
+|   |   \---js
+|   |           jquery.blueimp-gallery.min.js
+|   |           
+|   +---blueimp-load-image
+|   |   \---js
+|   |           load-image.all.min.js
+|   |           
+|   +---blueimp-tmpl
+|   |   \---js
+|   |           tmpl.js
+|   |           
+|   +---bootstrap-calendar
+|   |   +---css
+|   |   |       bootstrap_calendar.css
+|   |   |       
+|   |   \---js
+|   |           bootstrap_calendar.min.js
+|   |           
+|   +---bootstrap-datepicker
+|   |   \---dist
+|   |       +---css
+|   |       |       bootstrap-datepicker.css
+|   |       |       bootstrap-datepicker.min.css
+|   |       |       bootstrap-datepicker3.css
+|   |       |       bootstrap-datepicker3.min.css
+|   |       |       
+|   |       \---js
+|   |               bootstrap-datepicker.js
+|   |               bootstrap-datepicker.min.js
+|   |               
+|   +---bootstrap-daterangepicker
+|   |       daterangepicker.css
+|   |       daterangepicker.js
+|   |       
+|   +---bootstrap-datetime-picker
+|   |   +---css
+|   |   |       bootstrap-datetimepicker.min.css
+|   |   |       
+|   |   \---js
+|   |           bootstrap-datetimepicker.min.js
+|   |           
+|   +---bootstrap-social
+|   |       bootstrap-social.css
+|   |       
+|   +---bootstrap-timepicker
+|   |   +---css
+|   |   |       bootstrap-timepicker.min.css
+|   |   |       
+|   |   \---js
+|   |           bootstrap-timepicker.min.js
+|   |           
+|   +---bootstrap3-wysihtml5-bower
+|   |   \---dist
+|   |           bootstrap3-wysihtml5.all.min.js
+|   |           bootstrap3-wysihtml5.min.css
+|   |           
+|   +---chart.js
+|   |   \---dist
+|   |           chart.min.js
+|   |           
+|   +---ckeditor
+|   |       ckeditor.js
+|   |       
+|   +---clipboard
+|   |   \---dist
+|   |           clipboard.min.js
+|   |           
+|   +---countdown
+|   |       jquery.countdown.css
+|   |       jquery.countdown.min.js
+|   |       jquery.plugin.min.js
+|   |       
+|   +---d3
+|   |       d3.min.js
+|   |       
+|   +---datatables.net
+|   |   \---js
+|   |           jquery.dataTables.min.js
+|   |           
+|   +---datatables.net-bs4
+|   |   +---css
+|   |   |       dataTables.bootstrap4.min.css
+|   |   |       
+|   |   \---js
+|   |           dataTables.bootstrap4.min.js
+|   |           
+|   +---datatables.net-buttons
+|   |   \---js
+|   |           buttons.colVis.min.js
+|   |           buttons.flash.min.js
+|   |           buttons.html5.min.js
+|   |           buttons.print.min.js
+|   |           dataTables.buttons.min.js
+|   |           
+|   +---datatables.net-buttons-bs4
+|   |   +---css
+|   |   |       buttons.bootstrap4.min.css
+|   |   |       
+|   |   \---js
+|   |           buttons.bootstrap4.min.js
+|   |           
+|   +---datatables.net-colreorder
+|   |   \---js
+|   |           dataTables.colReorder.min.js
+|   |           
+|   +---datatables.net-colreorder-bs4
+|   |   +---css
+|   |   |       colReorder.bootstrap4.min.css
+|   |   |       
+|   |   \---js
+|   |           colReorder.bootstrap4.min.js
+|   |           
+|   +---datatables.net-fixedcolumns
+|   |   \---js
+|   |           dataTables.fixedColumns.min.js
+|   |           
+|   +---datatables.net-fixedcolumns-bs4
+|   |   +---css
+|   |   |       fixedColumns.bootstrap4.min.css
+|   |   |       
+|   |   \---js
+|   |           fixedColumns.bootstrap4.min.js
+|   |           
+|   +---datatables.net-fixedheader
+|   |   \---js
+|   |           dataTables.fixedHeader.min.js
+|   |           
+|   +---datatables.net-fixedheader-bs4
+|   |   +---css
+|   |   |       fixedHeader.bootstrap4.min.css
+|   |   |       
+|   |   \---js
+|   |           fixedHeader.bootstrap4.min.js
+|   |           
+|   +---datatables.net-keytable
+|   |   \---js
+|   |           dataTables.keyTable.min.js
+|   |           
+|   +---datatables.net-keytable-bs4
+|   |   +---css
+|   |   |       keyTable.bootstrap4.min.css
+|   |   |       
+|   |   \---js
+|   |           keyTable.bootstrap4.min.js
+|   |           
+|   +---datatables.net-responsive
+|   |   \---js
+|   |           dataTables.responsive.min.js
+|   |           
+|   +---datatables.net-responsive-bs4
+|   |   +---css
+|   |   |       responsive.bootstrap4.min.css
+|   |   |       
+|   |   \---js
+|   |           responsive.bootstrap4.min.js
+|   |           
+|   +---datatables.net-rowreorder
+|   |   \---js
+|   |           dataTables.rowReorder.min.js
+|   |           
+|   +---datatables.net-rowreorder-bs4
+|   |   +---css
+|   |   |       rowReorder.bootstrap4.min.css
+|   |   |       
+|   |   \---js
+|   |           rowReorder.bootstrap4.min.js
+|   |           
+|   +---datatables.net-scroller
+|   |   \---js
+|   |           dataTables.scroller.min.js
+|   |           
+|   +---datatables.net-scroller-bs4
+|   |   +---css
+|   |   |       scroller.bootstrap4.min.css
+|   |   |       
+|   |   \---js
+|   |           scroller.bootstrap4.min.js
+|   |           
+|   +---datatables.net-select
+|   |   \---js
+|   |           dataTables.select.min.js
+|   |           
+|   +---datatables.net-select-bs4
+|   |   +---css
+|   |   |       select.bootstrap4.min.css
+|   |   |       
+|   |   \---js
+|   |           select.bootstrap4.min.js
+|   |           
+|   +---dropzone
+|   |   \---dist
+|   |       \---min
+|   |               dropzone.min.css
+|   |               dropzone.min.js
+|   |               
+|   +---flag-icon-css
+|   |   +---css
+|   |   |       flag-icon.min.css
+|   |   |       
+|   |   \---flags
+|   |       +---1x1
+|   |       |       ad.svg
+|   |       |       ae.svg
+|   |       |       af.svg
+|   |       |       ag.svg
+|   |       |       ai.svg
+|   |       |       al.svg
+|   |       |       am.svg
+|   |       |       ao.svg
+|   |       |       aq.svg
+|   |       |       ar.svg
+|   |       |       as.svg
+|   |       |       at.svg
+|   |       |       au.svg
+|   |       |       aw.svg
+|   |       |       ax.svg
+|   |       |       az.svg
+|   |       |       ba.svg
+|   |       |       bb.svg
+|   |       |       bd.svg
+|   |       |       be.svg
+|   |       |       bf.svg
+|   |       |       bg.svg
+|   |       |       bh.svg
+|   |       |       bi.svg
+|   |       |       bj.svg
+|   |       |       bl.svg
+|   |       |       bm.svg
+|   |       |       bn.svg
+|   |       |       bo.svg
+|   |       |       bq.svg
+|   |       |       br.svg
+|   |       |       bs.svg
+|   |       |       bt.svg
+|   |       |       bv.svg
+|   |       |       bw.svg
+|   |       |       by.svg
+|   |       |       bz.svg
+|   |       |       ca.svg
+|   |       |       cc.svg
+|   |       |       cd.svg
+|   |       |       cf.svg
+|   |       |       cg.svg
+|   |       |       ch.svg
+|   |       |       ci.svg
+|   |       |       ck.svg
+|   |       |       cl.svg
+|   |       |       cm.svg
+|   |       |       cn.svg
+|   |       |       co.svg
+|   |       |       cr.svg
+|   |       |       cu.svg
+|   |       |       cv.svg
+|   |       |       cw.svg
+|   |       |       cx.svg
+|   |       |       cy.svg
+|   |       |       cz.svg
+|   |       |       de.svg
+|   |       |       dj.svg
+|   |       |       dk.svg
+|   |       |       dm.svg
+|   |       |       do.svg
+|   |       |       dz.svg
+|   |       |       ec.svg
+|   |       |       ee.svg
+|   |       |       eg.svg
+|   |       |       eh.svg
+|   |       |       er.svg
+|   |       |       es-ca.svg
+|   |       |       es-ga.svg
+|   |       |       es.svg
+|   |       |       et.svg
+|   |       |       eu.svg
+|   |       |       fi.svg
+|   |       |       fj.svg
+|   |       |       fk.svg
+|   |       |       fm.svg
+|   |       |       fo.svg
+|   |       |       fr.svg
+|   |       |       ga.svg
+|   |       |       gb-eng.svg
+|   |       |       gb-nir.svg
+|   |       |       gb-sct.svg
+|   |       |       gb-wls.svg
+|   |       |       gb.svg
+|   |       |       gd.svg
+|   |       |       ge.svg
+|   |       |       gf.svg
+|   |       |       gg.svg
+|   |       |       gh.svg
+|   |       |       gi.svg
+|   |       |       gl.svg
+|   |       |       gm.svg
+|   |       |       gn.svg
+|   |       |       gp.svg
+|   |       |       gq.svg
+|   |       |       gr.svg
+|   |       |       gs.svg
+|   |       |       gt.svg
+|   |       |       gu.svg
+|   |       |       gw.svg
+|   |       |       gy.svg
+|   |       |       hk.svg
+|   |       |       hm.svg
+|   |       |       hn.svg
+|   |       |       hr.svg
+|   |       |       ht.svg
+|   |       |       hu.svg
+|   |       |       id.svg
+|   |       |       ie.svg
+|   |       |       il.svg
+|   |       |       im.svg
+|   |       |       in.svg
+|   |       |       io.svg
+|   |       |       iq.svg
+|   |       |       ir.svg
+|   |       |       is.svg
+|   |       |       it.svg
+|   |       |       je.svg
+|   |       |       jm.svg
+|   |       |       jo.svg
+|   |       |       jp.svg
+|   |       |       ke.svg
+|   |       |       kg.svg
+|   |       |       kh.svg
+|   |       |       ki.svg
+|   |       |       km.svg
+|   |       |       kn.svg
+|   |       |       kp.svg
+|   |       |       kr.svg
+|   |       |       kw.svg
+|   |       |       ky.svg
+|   |       |       kz.svg
+|   |       |       la.svg
+|   |       |       lb.svg
+|   |       |       lc.svg
+|   |       |       li.svg
+|   |       |       lk.svg
+|   |       |       lr.svg
+|   |       |       ls.svg
+|   |       |       lt.svg
+|   |       |       lu.svg
+|   |       |       lv.svg
+|   |       |       ly.svg
+|   |       |       ma.svg
+|   |       |       mc.svg
+|   |       |       md.svg
+|   |       |       me.svg
+|   |       |       mf.svg
+|   |       |       mg.svg
+|   |       |       mh.svg
+|   |       |       mk.svg
+|   |       |       ml.svg
+|   |       |       mm.svg
+|   |       |       mn.svg
+|   |       |       mo.svg
+|   |       |       mp.svg
+|   |       |       mq.svg
+|   |       |       mr.svg
+|   |       |       ms.svg
+|   |       |       mt.svg
+|   |       |       mu.svg
+|   |       |       mv.svg
+|   |       |       mw.svg
+|   |       |       mx.svg
+|   |       |       my.svg
+|   |       |       mz.svg
+|   |       |       na.svg
+|   |       |       nc.svg
+|   |       |       ne.svg
+|   |       |       nf.svg
+|   |       |       ng.svg
+|   |       |       ni.svg
+|   |       |       nl.svg
+|   |       |       no.svg
+|   |       |       np.svg
+|   |       |       nr.svg
+|   |       |       nu.svg
+|   |       |       nz.svg
+|   |       |       om.svg
+|   |       |       pa.svg
+|   |       |       pe.svg
+|   |       |       pf.svg
+|   |       |       pg.svg
+|   |       |       ph.svg
+|   |       |       pk.svg
+|   |       |       pl.svg
+|   |       |       pm.svg
+|   |       |       pn.svg
+|   |       |       pr.svg
+|   |       |       ps.svg
+|   |       |       pt.svg
+|   |       |       pw.svg
+|   |       |       py.svg
+|   |       |       qa.svg
+|   |       |       re.svg
+|   |       |       ro.svg
+|   |       |       rs.svg
+|   |       |       ru.svg
+|   |       |       rw.svg
+|   |       |       sa.svg
+|   |       |       sb.svg
+|   |       |       sc.svg
+|   |       |       sd.svg
+|   |       |       se.svg
+|   |       |       sg.svg
+|   |       |       sh.svg
+|   |       |       si.svg
+|   |       |       sj.svg
+|   |       |       sk.svg
+|   |       |       sl.svg
+|   |       |       sm.svg
+|   |       |       sn.svg
+|   |       |       so.svg
+|   |       |       sr.svg
+|   |       |       ss.svg
+|   |       |       st.svg
+|   |       |       sv.svg
+|   |       |       sx.svg
+|   |       |       sy.svg
+|   |       |       sz.svg
+|   |       |       tc.svg
+|   |       |       td.svg
+|   |       |       tf.svg
+|   |       |       tg.svg
+|   |       |       th.svg
+|   |       |       tj.svg
+|   |       |       tk.svg
+|   |       |       tl.svg
+|   |       |       tm.svg
+|   |       |       tn.svg
+|   |       |       to.svg
+|   |       |       tr.svg
+|   |       |       tt.svg
+|   |       |       tv.svg
+|   |       |       tw.svg
+|   |       |       tz.svg
+|   |       |       ua.svg
+|   |       |       ug.svg
+|   |       |       um.svg
+|   |       |       un.svg
+|   |       |       us.svg
+|   |       |       uy.svg
+|   |       |       uz.svg
+|   |       |       va.svg
+|   |       |       vc.svg
+|   |       |       ve.svg
+|   |       |       vg.svg
+|   |       |       vi.svg
+|   |       |       vn.svg
+|   |       |       vu.svg
+|   |       |       wf.svg
+|   |       |       ws.svg
+|   |       |       xk.svg
+|   |       |       ye.svg
+|   |       |       yt.svg
+|   |       |       za.svg
+|   |       |       zm.svg
+|   |       |       zw.svg
+|   |       |       
+|   |       \---4x3
+|   |               ad.svg
+|   |               ae.svg
+|   |               af.svg
+|   |               ag.svg
+|   |               ai.svg
+|   |               al.svg
+|   |               am.svg
+|   |               ao.svg
+|   |               aq.svg
+|   |               ar.svg
+|   |               as.svg
+|   |               at.svg
+|   |               au.svg
+|   |               aw.svg
+|   |               ax.svg
+|   |               az.svg
+|   |               ba.svg
+|   |               bb.svg
+|   |               bd.svg
+|   |               be.svg
+|   |               bf.svg
+|   |               bg.svg
+|   |               bh.svg
+|   |               bi.svg
+|   |               bj.svg
+|   |               bl.svg
+|   |               bm.svg
+|   |               bn.svg
+|   |               bo.svg
+|   |               bq.svg
+|   |               br.svg
+|   |               bs.svg
+|   |               bt.svg
+|   |               bv.svg
+|   |               bw.svg
+|   |               by.svg
+|   |               bz.svg
+|   |               ca.svg
+|   |               cc.svg
+|   |               cd.svg
+|   |               cf.svg
+|   |               cg.svg
+|   |               ch.svg
+|   |               ci.svg
+|   |               ck.svg
+|   |               cl.svg
+|   |               cm.svg
+|   |               cn.svg
+|   |               co.svg
+|   |               cr.svg
+|   |               cu.svg
+|   |               cv.svg
+|   |               cw.svg
+|   |               cx.svg
+|   |               cy.svg
+|   |               cz.svg
+|   |               de.svg
+|   |               dj.svg
+|   |               dk.svg
+|   |               dm.svg
+|   |               do.svg
+|   |               dz.svg
+|   |               ec.svg
+|   |               ee.svg
+|   |               eg.svg
+|   |               eh.svg
+|   |               er.svg
+|   |               es-ca.svg
+|   |               es-ga.svg
+|   |               es.svg
+|   |               et.svg
+|   |               eu.svg
+|   |               fi.svg
+|   |               fj.svg
+|   |               fk.svg
+|   |               fm.svg
+|   |               fo.svg
+|   |               fr.svg
+|   |               ga.svg
+|   |               gb-eng.svg
+|   |               gb-nir.svg
+|   |               gb-sct.svg
+|   |               gb-wls.svg
+|   |               gb.svg
+|   |               gd.svg
+|   |               ge.svg
+|   |               gf.svg
+|   |               gg.svg
+|   |               gh.svg
+|   |               gi.svg
+|   |               gl.svg
+|   |               gm.svg
+|   |               gn.svg
+|   |               gp.svg
+|   |               gq.svg
+|   |               gr.svg
+|   |               gs.svg
+|   |               gt.svg
+|   |               gu.svg
+|   |               gw.svg
+|   |               gy.svg
+|   |               hk.svg
+|   |               hm.svg
+|   |               hn.svg
+|   |               hr.svg
+|   |               ht.svg
+|   |               hu.svg
+|   |               id.svg
+|   |               ie.svg
+|   |               il.svg
+|   |               im.svg
+|   |               in.svg
+|   |               io.svg
+|   |               iq.svg
+|   |               ir.svg
+|   |               is.svg
+|   |               it.svg
+|   |               je.svg
+|   |               jm.svg
+|   |               jo.svg
+|   |               jp.svg
+|   |               ke.svg
+|   |               kg.svg
+|   |               kh.svg
+|   |               ki.svg
+|   |               km.svg
+|   |               kn.svg
+|   |               kp.svg
+|   |               kr.svg
+|   |               kw.svg
+|   |               ky.svg
+|   |               kz.svg
+|   |               la.svg
+|   |               lb.svg
+|   |               lc.svg
+|   |               li.svg
+|   |               lk.svg
+|   |               lr.svg
+|   |               ls.svg
+|   |               lt.svg
+|   |               lu.svg
+|   |               lv.svg
+|   |               ly.svg
+|   |               ma.svg
+|   |               mc.svg
+|   |               md.svg
+|   |               me.svg
+|   |               mf.svg
+|   |               mg.svg
+|   |               mh.svg
+|   |               mk.svg
+|   |               ml.svg
+|   |               mm.svg
+|   |               mn.svg
+|   |               mo.svg
+|   |               mp.svg
+|   |               mq.svg
+|   |               mr.svg
+|   |               ms.svg
+|   |               mt.svg
+|   |               mu.svg
+|   |               mv.svg
+|   |               mw.svg
+|   |               mx.svg
+|   |               my.svg
+|   |               mz.svg
+|   |               na.svg
+|   |               nc.svg
+|   |               ne.svg
+|   |               nf.svg
+|   |               ng.svg
+|   |               ni.svg
+|   |               nl.svg
+|   |               no.svg
+|   |               np.svg
+|   |               nr.svg
+|   |               nu.svg
+|   |               nz.svg
+|   |               om.svg
+|   |               pa.svg
+|   |               pe.svg
+|   |               pf.svg
+|   |               pg.svg
+|   |               ph.svg
+|   |               pk.svg
+|   |               pl.svg
+|   |               pm.svg
+|   |               pn.svg
+|   |               pr.svg
+|   |               ps.svg
+|   |               pt.svg
+|   |               pw.svg
+|   |               py.svg
+|   |               qa.svg
+|   |               re.svg
+|   |               ro.svg
+|   |               rs.svg
+|   |               ru.svg
+|   |               rw.svg
+|   |               sa.svg
+|   |               sb.svg
+|   |               sc.svg
+|   |               sd.svg
+|   |               se.svg
+|   |               sg.svg
+|   |               sh.svg
+|   |               si.svg
+|   |               sj.svg
+|   |               sk.svg
+|   |               sl.svg
+|   |               sm.svg
+|   |               sn.svg
+|   |               so.svg
+|   |               sr.svg
+|   |               ss.svg
+|   |               st.svg
+|   |               sv.svg
+|   |               sx.svg
+|   |               sy.svg
+|   |               sz.svg
+|   |               tc.svg
+|   |               td.svg
+|   |               tf.svg
+|   |               tg.svg
+|   |               th.svg
+|   |               tj.svg
+|   |               tk.svg
+|   |               tl.svg
+|   |               tm.svg
+|   |               tn.svg
+|   |               to.svg
+|   |               tr.svg
+|   |               tt.svg
+|   |               tv.svg
+|   |               tw.svg
+|   |               tz.svg
+|   |               ua.svg
+|   |               ug.svg
+|   |               um.svg
+|   |               un.svg
+|   |               us.svg
+|   |               uy.svg
+|   |               uz.svg
+|   |               va.svg
+|   |               vc.svg
+|   |               ve.svg
+|   |               vg.svg
+|   |               vi.svg
+|   |               vn.svg
+|   |               vu.svg
+|   |               wf.svg
+|   |               ws.svg
+|   |               xk.svg
+|   |               ye.svg
+|   |               yt.svg
+|   |               za.svg
+|   |               zm.svg
+|   |               zw.svg
+|   |               
+|   +---flot
+|   |   \---source
+|   |           jquery.canvaswrapper.js
+|   |           jquery.colorhelpers.js
+|   |           jquery.flot.browser.js
+|   |           jquery.flot.categories.js
+|   |           jquery.flot.crosshair.js
+|   |           jquery.flot.drawSeries.js
+|   |           jquery.flot.hover.js
+|   |           jquery.flot.js
+|   |           jquery.flot.legend.js
+|   |           jquery.flot.navigate.js
+|   |           jquery.flot.pie.js
+|   |           jquery.flot.resize.js
+|   |           jquery.flot.saturated.js
+|   |           jquery.flot.selection.js
+|   |           jquery.flot.symbol.js
+|   |           jquery.flot.time.js
+|   |           jquery.flot.touch.js
+|   |           jquery.flot.touchNavigate.js
+|   |           jquery.flot.uiConstants.js
+|   |           
+|   +---gritter
+|   |   +---css
+|   |   |       jquery.gritter.css
+|   |   |       
+|   |   +---images
+|   |   |       gritter-light.png
+|   |   |       gritter.png
+|   |   |       ie-spacer.gif
+|   |   |       
+|   |   \---js
+|   |           jquery.gritter.js
+|   |           
+|   +---intro.js
+|   |   \---minified
+|   |           intro.min.js
+|   |           introjs.min.css
+|   |           
+|   +---ion-rangeslider
+|   |   +---css
+|   |   |       ion.rangeSlider.min.css
+|   |   |       
+|   |   \---js
+|   |           ion.rangeSlider.min.js
+|   |           
+|   +---ionicons
+|   |   +---css
+|   |   |       ionicons.min.css
+|   |   |       
+|   |   \---fonts
+|   |           ionicons.eot_v=4.2.5
+|   |           ionicons.svg_v=4.2.5
+|   |           ionicons.ttf_v=4.2.5
+|   |           ionicons.woff2_v=4.2.5
+|   |           ionicons.woff_v=4.2.5
+|   |           
+|   +---isotope-layout
+|   |   \---dist
+|   |           isotope.pkgd.min.js
+|   |           
+|   +---jquery-knob
+|   |   \---dist
+|   |           jquery.knob.min.js
+|   |           
+|   +---jquery-migrate
+|   |   \---dist
+|   |           jquery-migrate.min.js
+|   |           
+|   +---jquery-mockjax
+|   |   \---dist
+|   |           jquery.mockjax.min.js
+|   |           
+|   +---jquery-sparkline
+|   |       jquery.sparkline.min.js
+|   |       
+|   +---jquery.maskedinput
+|   |   \---src
+|   |           jquery.maskedinput.js
+|   |           
+|   +---jstree
+|   |   \---dist
+|   |       |   jstree.min.js
+|   |       |   
+|   |       \---themes
+|   |           \---default
+|   |                   32px.png
+|   |                   40px.png
+|   |                   style.min.css
+|   |                   throbber.gif
+|   |                   
+|   +---jszip
+|   |   \---dist
+|   |           jszip.min.js
+|   |           
+|   +---jvectormap-next
+|   |       jquery-jvectormap-world-mill.js
+|   |       jquery-jvectormap.css
+|   |       jquery-jvectormap.min.js
+|   |       
+|   +---lightbox2
+|   |   \---dist
+|   |       +---css
+|   |       |       lightbox.css
+|   |       |       
+|   |       +---images
+|   |       |       close.png
+|   |       |       loading.gif
+|   |       |       next.png
+|   |       |       prev.png
+|   |       |       
+|   |       \---js
+|   |               lightbox.min.js
+|   |               
+|   +---lity
+|   |   \---dist
+|   |           lity.min.css
+|   |           lity.min.js
+|   |           
+|   +---masonry-layout
+|   |   \---dist
+|   |           masonry.pkgd.min.js
+|   |           
+|   +---moment
+|   |   \---min
+|   |           moment.min.js
+|   |           
+|   +---nvd3
+|   |   \---build
+|   |           nv.d3.css
+|   |           nv.d3.min.js
+|   |           
+|   +---oclazyload
+|   |   \---dist
+|   |           ocLazyLoad.min.js
+|   |           
+|   +---parsleyjs
+|   |   \---dist
+|   |           parsley.min.js
+|   |           
+|   +---pdfmake
+|   |   \---build
+|   |           pdfmake.min.js
+|   |           vfs_fonts.js
+|   |           
+|   +---select-picker
+|   |   \---dist
+|   |           picker.min.css
+|   |           picker.min.js
+|   |           
+|   +---select2
+|   |   \---dist
+|   |       +---css
+|   |       |       select2.min.css
+|   |       |       
+|   |       \---js
+|   |               select2.full.min.js
+|   |               select2.min.js
+|   |               
+|   +---simple-line-icons
+|   |   +---css
+|   |   |       simple-line-icons.css
+|   |   |       
+|   |   \---fonts
+|   |           Simple-Line-Icons.eot_v=2.4.0
+|   |           Simple-Line-Icons.svg_v=2.4.0
+|   |           Simple-Line-Icons.ttf_v=2.4.0
+|   |           Simple-Line-Icons.woff2_v=2.4.0
+|   |           Simple-Line-Icons.woff_v=2.4.0
+|   |           
+|   +---spectrum-colorpicker2
+|   |   \---dist
+|   |           spectrum.min.css
+|   |           spectrum.min.js
+|   |           
+|   +---summernote
+|   |   \---dist
+|   |       |   summernote-lite.css
+|   |       |   summernote-lite.min.js
+|   |       |   
+|   |       \---font
+|   |               summernote.eot
+|   |               summernote.eot_
+|   |               summernote.ttf
+|   |               summernote.woff
+|   |               summernote.woff2
+|   |               
+|   +---superbox
+|   |   |   jquery.superbox.min.js
+|   |   |   superbox.min.css
+|   |   |   
+|   |   \---font
+|   |           superboxicons.eot_6890439
+|   |           superboxicons.svg_6890439
+|   |           superboxicons.ttf_6890439
+|   |           superboxicons.woff_6890439
+|   |           
+|   +---sweetalert
+|   |   \---dist
+|   |           sweetalert.min.js
+|   |           
+|   +---switchery
+|   |   \---dist
+|   |           switchery.min.css
+|   |           switchery.min.js
+|   |           
+|   +---tag-it
+|   |   +---css
+|   |   |       jquery.tagit.css
+|   |   |       
+|   |   \---js
+|   |           tag-it.min.js
+|   |           
+|   \---x-editable-bs4
+|       \---dist
+|           +---bootstrap4-editable
+|           |   +---css
+|           |   |       bootstrap-editable.css
+|           |   |       
+|           |   +---img
+|           |   |       clear.png
+|           |   |       loading.gif
+|           |   |       
+|           |   \---js
+|           |           bootstrap-editable.min.js
+|           |           
+|           \---inputs-ext
+|               +---address
+|               |       address.css
+|               |       address.js
+|               |       
+|               +---typeaheadjs
+|               |   |   typeaheadjs.js
+|               |   |   
+|               |   \---lib
+|               |           typeahead.js
+|               |           typeahead.js-bootstrap.css
+|               |           
+|               \---wysihtml5
+|                       wysihtml5.js
+|                       
++---script
+|   |   app.min.js
+|   |   csrf.js
+|   |   main.js
+|   |   vendor.min.js
+|   |   
+|   +---demo
+|   |       calendar.demo.js
+|   |       chart-apex.demo.js
+|   |       chart-d3.demo.js
+|   |       chart-flot.demo.js
+|   |       chart-js.demo.js
+|   |       coming-soon.demo.js
+|   |       dashboard-v2.js
+|   |       dashboard-v3.js
+|   |       dashboard.js
+|   |       email-compose.demo.js
+|   |       email-inbox.demo.js
+|   |       form-editable.demo.js
+|   |       form-multiple-upload.demo.js
+|   |       form-plugins.demo.js
+|   |       form-slider-switcher.demo.js
+|   |       form-summernote.demo.js
+|   |       form-wysiwyg.demo.js
+|   |       gallery-v2.demo.js
+|   |       gallery.demo.js
+|   |       login-v2.demo.js
+|   |       map-google.demo.js
+|   |       map-vector.demo.js
+|   |       page-with-two-sidebar.demo.js
+|   |       pos-counter-checkout.demo.js
+|   |       pos-customer-order.demo.js
+|   |       pos-kitchen-order.demo.js
+|   |       pos-menu-stock.demo.js
+|   |       pos-table-booking.demo.js
+|   |       profile.demo.js
+|   |       rENDer.highlight.js
+|   |       table-manage-buttons.demo.js
+|   |       table-manage-colreorder.demo.js
+|   |       table-manage-combine.demo.js
+|   |       table-manage-default.demo.js
+|   |       table-manage-fixed-columns.demo.js
+|   |       table-manage-fixed-header.demo.js
+|   |       table-manage-keytable.demo.js
+|   |       table-manage-responsive.demo.js
+|   |       table-manage-rowreorder.demo.js
+|   |       table-manage-scroller.demo.js
+|   |       table-manage-select.demo.js
+|   |       timeline.demo.js
+|   |       ui-modal-notification.demo.js
+|   |       ui-tree.demo.js
+|   |       widget.demo.js
+|   |       
+|   \---theme
+|           apple.min.js
+|           default.min.js
+|           facebook.min.js
+|           google.min.js
+|           material.min.js
+|           transparent.min.js
+|           
++---src
+|   +---components
+|   |       nav.pug
+|   |       
+|   +---data
+|   |       index.json
+|   |       
+|   +---layouts
+|   |       header.pug
+|   |       index.pug
+|   |       menu.pug
+|   |       
+|   \---pages
+|           about.pug
+|           hello.pug
+|           hello.pug.json
+|           index.pug
+|           
+\---styles
+    |   main.css
+    |   vendor.min.css
+    |   
+    +---apple
+    |   |   +.css
+    |   |   app.min.css
+    |   |   
+    |   \---images
+    |           bg-login.png
+    |           coming-soon.jpg
+    |           cover-pattern.png
+    |           cover-sidebar-user.jpg
+    |           cover-sidebar.jpg
+    |           error-page-pattern.png
+    |           profile-cover.jpg
+    |           
+    +---default
+    |   |   +.css
+    |   |   app.min.css
+    |   |   
+    |   \---images
+    |           bg-login.png
+    |           coming-soon.jpg
+    |           cover-pattern.png
+    |           cover-sidebar-user.jpg
+    |           cover-sidebar.jpg
+    |           error-page-pattern.png
+    |           profile-cover.jpg
+    |           
+    +---facebook
+    |   |   +.css
+    |   |   app.min.css
+    |   |   
+    |   \---images
+    |           bg-login.png
+    |           coming-soon.jpg
+    |           cover-pattern.png
+    |           error-page-pattern.png
+    |           profile-cover.jpg
+    |           
+    +---google
+    |   |   +.css
+    |   |   app.min.css
+    |   |   
+    |   \---images
+    |           bg-login.png
+    |           coming-soon.jpg
+    |           cover-pattern.png
+    |           cover-sidebar-user.jpg
+    |           cover-sidebar.jpg
+    |           error-page-pattern.png
+    |           profile-cover.jpg
+    |           
+    +---images
+    |       ui-icons_444444_256x240.png
+    |       ui-icons_555555_256x240.png
+    |       ui-icons_777620_256x240.png
+    |       ui-icons_777777_256x240.png
+    |       ui-icons_cc0000_256x240.png
+    |       ui-icons_ffffff_256x240.png
+    |       
+    +---material
+    |   |   +.css
+    |   |   app.min.css
+    |   |   
+    |   \---images
+    |           bg-login.png
+    |           coming-soon.jpg
+    |           cover-pattern.png
+    |           cover-sidebar-user.jpg
+    |           cover-sidebar.jpg
+    |           error-page-pattern.png
+    |           profile-cover.jpg
+    |           
+    +---transparent
+    |   |   +.css
+    |   |   app.min.css
+    |   |   
+    |   \---images
+    |           bg-login.png
+    |           coming-soon.jpg
+    |           cover-pattern.png
+    |           error-page-pattern.png
+    |           page-cover.jpg
+    |           profile-cover.jpg
+    |           
+    \---webfonts
+            fa-brands-400.eot
+            fa-brands-400.eot_
+            fa-brands-400.svg
+            fa-brands-400.ttf
+            fa-brands-400.woff
+            fa-brands-400.woff2
+            fa-regular-400.eot
+            fa-regular-400.eot_
+            fa-regular-400.svg
+            fa-regular-400.ttf
+            fa-regular-400.woff
+            fa-regular-400.woff2
+            fa-solid-900.eot
+            fa-solid-900.eot_
+            fa-solid-900.svg
+            fa-solid-900.ttf
+            fa-solid-900.woff
+            fa-solid-900.woff2
+            
+

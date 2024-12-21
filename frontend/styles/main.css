@@ -1,5 +1,5 @@
-@import "/src/styles/vendor.min.css";
-@import "/src/styles/default/app.min.css";
+@import "@styles/vendor.min.css";
+@import "@styles/default/app.min.css";
 .ticker {
     display: flex;
     flex-wrap: wrap;
