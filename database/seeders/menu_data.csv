@@ -1,0 +1,232 @@
+id,parent_id,name,icon,label,badge,active,right_icon,path,remark
+1,0,Incoming,fa-brands fa-accessible-icon,FALSE,0,0,,/,Gratitude amplifies joy.
+2,0,Ougoing,fa-brands fa-accusoft,FALSE,0,0,,javascript:;,Knowledge is power.
+3,0,Import,fa-solid fa-address-book,FALSE,0,0,,javascript:;,Hope lights the way.
+4,0,Export,fa-regular fa-address-book,FALSE,0,0,,javascript:;,Failure is a stepping stone.
+5,0,Finance,fa-solid fa-address-card,FALSE,0,0,,javascript:;,Time waits for no one.
+6,0,Sitatext,fa-regular fa-address-card,FALSE,0,0,,javascript:;,Love heals all wounds.
+7,0,Custom,fa-brands fa-app.net,FALSE,0,0,,javascript:;,Success requires effort.
+8,0,Master,fa-brands fa-adversal,FALSE,0,0,,javascript:;,Happiness comes from within.
+9,3,Checker,fa-brands fa-affiliatetheme,FALSE,0,0,,javascript:;,Every moment is precious.
+10,9,Breakdown,fa-brands fa-airbnb,FALSE,0,0,,javascript:;,Knowledge is power.
+11,10,Button,fa-brands fa-algolia,FALSE,0,0,,javascript:;,Happiness comes from within.
+12,10,Header,fa-solid fa-align-center,FALSE,0,0,,javascript:;,Time waits for no one.
+13,10,Detail,fa-solid fa-align-justify,FALSE,0,0,,javascript:;,Love heals all wounds.
+14,11,Save,fa-solid fa-align-left,FALSE,0,0,,javascript:;,Hope lights the way.
+15,11,Print,fa-solid fa-align-right,FALSE,0,0,,javascript:;,Love heals all wounds.
+16,11,Void,fa-brands fa-alipay,FALSE,0,0,,javascript:;,Hard work beats talent.
+17,11,New,fa-brands fa-amazon,FALSE,0,0,,javascript:;,Dream big and work hard.
+18,11,Find,fa-brands fa-amazon-pay,FALSE,0,0,,javascript:;,Imagination fuels innovation.
+19,12,Breakdown #,fa-brands fa-amilia,FALSE,0,0,,javascript:;,Life is a journey.
+20,12,Date Flight,fa-solid fa-anchor,FALSE,0,0,,javascript:;,Knowledge is power.
+21,12,Airlines,fa-solid fa-anchor-circle-check,FALSE,0,0,,javascript:;,Kindness costs nothing.
+22,12,Route,fa-solid fa-anchor-circle-exclamation,FALSE,0,0,,javascript:;,Love heals all wounds.
+23,12,Flights #,fa-solid fa-anchor-circle-xmark,FALSE,0,0,,javascript:;,Kindness costs nothing.
+24,12,Manifest,fa-solid fa-anchor-lock,FALSE,0,0,,javascript:;,Hope lights the way.
+25,12,Supervisor,fa-brands fa-android,FALSE,0,0,,javascript:;,Every moment is precious.
+26,13,AWB#,fa-brands fa-angellist,FALSE,0,0,,javascript:;,Kindness costs nothing.
+27,13,No. Pos,fa-solid fa-angle-down,FALSE,0,0,,javascript:;,Kindness costs nothing.
+28,13,Pcs,fa-solid fa-angle-left,FALSE,0,0,,javascript:;,Hope lights the way.
+29,13,WEight,fa-solid fa-angle-right,FALSE,0,0,,javascript:;,Peace starts from the heart.
+30,13,Volume,fa-solid fa-angle-up,FALSE,0,0,,javascript:;,Love heals all wounds.
+31,13,Nature of Good,fa-solid fa-angles-down,FALSE,0,0,,javascript:;,Change begins with you.
+32,13,ULD/Bulk,fa-solid fa-angles-left,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+33,13,Remarks,fa-solid fa-angles-right,FALSE,0,0,,javascript:;,Kindness costs nothing.
+34,9,OB/PLP,fa-solid fa-angles-up,FALSE,0,0,,javascript:;,Knowledge is power.
+35,34,Header,fa-brands fa-angry-creative,FALSE,0,0,,javascript:;,Love heals all wounds.
+36,34,Detail ,fa-brands fa-angular,FALSE,0,0,,javascript:;,Happiness comes from within.
+37,34,Button,fa-solid fa-ankh,FALSE,0,0,,javascript:;,Believe in yourself.
+38,35,Warehouse Operator,fa-brands fa-app-store,FALSE,0,0,,javascript:;,Happiness comes from within.
+39,35,Date Overbringin,fa-brands fa-ios-app-store,FALSE,0,0,,javascript:;,Kindness costs nothing.
+40,35,Time Overbringin,fa-brands fa-apper-systems-ab,FALSE,0,0,,javascript:;,Optimism breeds success.
+41,35,Supervisor,fa-brands fa-apple,FALSE,0,0,,javascript:;,Love heals all wounds.
+42,35,Breakdown,fa-brands fa-apple-pay,FALSE,0,0,,javascript:;,Hope lights the way.
+43,36,Flight,fa-solid fa-apple-whole,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+44,36,Airlines,fa-solid fa-archway,FALSE,0,0,,javascript:;,Happiness comes from within.
+45,36,Pcs,fa-solid fa-building,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+46,36,WEight,fa-regular fa-building,FALSE,0,0,,javascript:;,Love heals all wounds.
+47,36,Volume,fa-solid fa-building-circle-arrow-right,FALSE,0,0,,javascript:;,Love heals all wounds.
+48,36,MAWB - HAWB,fa-solid fa-building-circle-check,FALSE,0,0,,javascript:;,Every moment is precious.
+49,36,Origin,fa-solid fa-building-circle-exclamation,FALSE,0,0,,javascript:;,Optimism breeds success.
+50,36,Nature of Good,fa-solid fa-building-circle-xmark,FALSE,0,0,,javascript:;,Change begins with you.
+51,36,ULD/Bulk,fa-solid fa-building-columns,FALSE,0,0,,javascript:;,Success requires effort.
+52,36,Remarks,fa-solid fa-building-flag,FALSE,0,0,,javascript:;,Optimism breeds success.
+53,37,Find,fa-solid fa-building-lock,FALSE,0,0,,javascript:;,Time waits for no one.
+54,37,New,fa-solid fa-building-ngo,FALSE,0,0,,javascript:;,Change begins with you.
+55,37,Print,fa-solid fa-building-shield,FALSE,0,0,,javascript:;,Life is a journey.
+56,37,Void,fa-solid fa-building-un,FALSE,0,0,,javascript:;,Optimism breeds success.
+57,37,Save,fa-solid fa-building-user,FALSE,0,0,,javascript:;,Courage conquers fear.
+58,37,Exit,fa-solid fa-building-wheat,FALSE,0,0,,javascript:;,Believe in yourself.
+59,9,Irregularities,fa-solid fa-bullhorn,FALSE,0,0,,javascript:;,Courage conquers fear.
+60,59,Header,fa-solid fa-bullseye,FALSE,0,0,,javascript:;,Love heals all wounds.
+61,59,Detail,fa-solid fa-burger,FALSE,0,0,,javascript:;,Dream big and work hard.
+62,59,Button,fa-brands fa-b�rom�bel-experte-gmbh-&-co.-kg.,FALSE,0,0,,javascript:;,Knowledge is power.
+63,60,Irregularities #,fa-solid fa-burst,FALSE,0,0,,javascript:;,Kindness costs nothing.
+64,60,Flight,fa-solid fa-bus,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+65,60,Airlines,fa-solid fa-bus-simple,FALSE,0,0,,javascript:;,Success requires effort.
+66,60,Route,fa-solid fa-business-time,FALSE,0,0,,javascript:;,Hard work beats talent.
+67,60,Date Flight,fa-brands fa-buy-n-large,FALSE,0,0,,javascript:;,Peace starts from the heart.
+68,60,Supervisor,fa-brands fa-buysellads,FALSE,0,0,,javascript:;,Dream big and work hard.
+69,61,Master AWB,fa-solid fa-c,FALSE,0,0,,javascript:;,Success requires effort.
+70,61,Consignee Name,fa-solid fa-cable-car,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+71,61,Origin,fa-solid fa-cake-candles,FALSE,0,0,,javascript:;,Time waits for no one.
+72,61,Part of PCS,fa-solid fa-calculator,FALSE,0,0,,javascript:;,Believe in yourself.
+73,61,Weight,fa-solid fa-calendar,FALSE,0,0,,javascript:;,Imagination fuels innovation.
+74,61,Kind of Good,fa-regular fa-calendar,FALSE,0,0,,javascript:;,Courage conquers fear.
+75,61,Discrapancy,fa-solid fa-calendar-check,FALSE,0,0,,javascript:;,Hard work beats talent.
+76,62,Save,fa-regular fa-calendar-check,FALSE,0,0,,javascript:;,Life is a journey.
+77,62,Print,fa-solid fa-calendar-day,FALSE,0,0,,javascript:;,Love heals all wounds.
+78,62,Void,fa-solid fa-calendar-days,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+79,62,New,fa-regular fa-calendar-days,FALSE,0,0,,javascript:;,Peace starts from the heart.
+80,62,Find,fa-solid fa-calendar-minus,FALSE,0,0,,javascript:;,Dream big and work hard.
+81,9,Cargo Damage,fa-regular fa-calendar-minus,FALSE,0,0,,javascript:;,Success requires effort.
+82,81,Master AWB,fa-solid fa-calendar-plus,FALSE,0,0,,javascript:;,Hope lights the way.
+83,81,Date of Issue,fa-regular fa-calendar-plus,FALSE,0,0,,javascript:;,Hope lights the way.
+84,81,Airlines,fa-solid fa-calendar-week,FALSE,0,0,,javascript:;,Time waits for no one.
+85,81,Destination,fa-solid fa-calendar-xmark,FALSE,0,0,,javascript:;,Love heals all wounds.
+86,81,Flight,fa-regular fa-calendar-xmark,FALSE,0,0,,javascript:;,Time waits for no one.
+87,81,Total PCS,fa-solid fa-camera,FALSE,0,0,,javascript:;,Life is a journey.
+88,81,Total Weight,fa-solid fa-camera-retro,FALSE,0,0,,javascript:;,Believe in yourself.
+89,81,Insurance,fa-solid fa-camera-rotate,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+90,81,Damage To Packing,fa-solid fa-campground,FALSE,0,0,,javascript:;,Life is a journey.
+91,90,Broken / Pecah,fa-brands fa-canadian-maple-leaf,FALSE,0,0,,javascript:;,Dream big and work hard.
+92,90,Corroded / Berkarat,fa-solid fa-candy-cane,FALSE,0,0,,javascript:;,Failure is a stepping stone.
+93,90,Crushed / Terbentur,fa-solid fa-cannabis,FALSE,0,0,,javascript:;,Knowledge is power.
+94,90,Hole in / Berlubang,fa-solid fa-capsules,FALSE,0,0,,javascript:;,Courage conquers fear.
+95,90,Ripped / Koyak,fa-solid fa-car,FALSE,0,0,,javascript:;,Failure is a stepping stone.
+96,90,Seams Open / Sambungan Terbuka,fa-solid fa-car-battery,FALSE,0,0,,javascript:;,Change begins with you.
+97,90,Tape Torn/ Pita Koyak,fa-solid fa-car-burst,FALSE,0,0,,javascript:;,Time waits for no one.
+98,90,Tape Loose / Pita Hilang,fa-solid fa-car-on,FALSE,0,0,,javascript:;,Success requires effort.
+99,90,Torn/Sobek,fa-solid fa-asterisk,FALSE,0,0,,javascript:;,Gratitude amplifies joy.
+100,90,Wet/Basah,"fa-brands fa-asymmetrik,-ltd.",FALSE,0,0,,javascript:;,Hard work beats talent.
+101,90,Other/Lain lain,fa-solid fa-at,FALSE,0,0,,javascript:;,Hard work beats talent.
+102,81,Damage Discovered,fa-brands fa-atlassian,FALSE,0,0,,javascript:;,Success requires effort.
+103,102,In Aircraft Compartment No,fa-solid fa-atom,FALSE,0,0,,javascript:;,Believe in yourself.
+104,102,When Loading into Aircraft,fa-brands fa-audible,FALSE,0,0,,javascript:;,Gratitude amplifies joy.
+105,102,When UnLoading from Aircraft,fa-solid fa-audio-description,FALSE,0,0,,javascript:;,Life is a journey.
+106,102,When Transporting from an to warehouse,fa-solid fa-austral-sign,FALSE,0,0,,javascript:;,Knowledge is power.
+107,102,In Warehouse,fa-brands fa-autoprefixer,FALSE,0,0,,javascript:;,Success requires effort.
+108,81,Inner Packing,fa-brands fa-avianex,FALSE,0,0,,javascript:;,Hope lights the way.
+109,108,Cotton / Wool,fa-brands fa-aviato,FALSE,0,0,,javascript:;,Hope lights the way.
+110,108,Newspaper,fa-solid fa-award,FALSE,0,0,,javascript:;,Failure is a stepping stone.
+111,108,Padding,fa-brands fa-amazon-web-services-(aws),FALSE,0,0,,javascript:;,Dream big and work hard.
+112,108,Partitions,fa-solid fa-b,FALSE,0,0,,javascript:;,Imagination fuels innovation.
+113,108,Ripped,fa-solid fa-baby,FALSE,0,0,,javascript:;,Hope lights the way.
+114,108,Sawdust,fa-solid fa-baby-carriage,FALSE,0,0,,javascript:;,Love heals all wounds.
+115,108,Tissue paper,fa-solid fa-backward,FALSE,0,0,,javascript:;,Courage conquers fear.
+116,108,Wood Blocking,fa-solid fa-backward-fast,FALSE,0,0,,javascript:;,Every moment is precious.
+117,108,Wood Shaving,fa-solid fa-backward-step,FALSE,0,0,,javascript:;,Failure is a stepping stone.
+118,108,Others,fa-solid fa-bacon,FALSE,0,0,,javascript:;,Failure is a stepping stone.
+119,81,Conditian Content,fa-solid fa-bacteria,FALSE,0,0,,javascript:;,Courage conquers fear.
+120,119,Broken,fa-solid fa-bacterium,FALSE,0,0,,javascript:;,Failure is a stepping stone.
+121,119,Death,fa-solid fa-bag-shopping,FALSE,0,0,,javascript:;,Optimism breeds success.
+122,119,Decayed,fa-solid fa-bahai,FALSE,0,0,,javascript:;,Courage conquers fear.
+123,119,Frozen,fa-solid fa-baht-sign,FALSE,0,0,,javascript:;,Time waits for no one.
+124,119,Leaking,fa-solid fa-ban,FALSE,0,0,,javascript:;,Success requires effort.
+125,119,Sick on injured,fa-solid fa-ban-smoking,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+126,119,Ratting,fa-solid fa-bandage,FALSE,0,0,,javascript:;,Peace starts from the heart.
+127,119,Overheaded,fa-brands fa-bandcamp,FALSE,0,0,,javascript:;,Life is a journey.
+128,119,Soiled,fa-solid fa-bangladeshi-taka-sign,FALSE,0,0,,javascript:;,Happiness comes from within.
+129,119,Squashed,fa-solid fa-barcode,FALSE,0,0,,javascript:;,Courage conquers fear.
+130,119,Wilted,fa-solid fa-bars,FALSE,0,0,,javascript:;,Kindness costs nothing.
+131,119,Other,fa-solid fa-bars-progress,FALSE,0,0,,javascript:;,Change begins with you.
+132,81,Recoverage,fa-solid fa-bars-staggered,FALSE,0,0,,javascript:;,Gratitude amplifies joy.
+133,132,"Imposible, Content Destroyed",fa-solid fa-baseball,FALSE,0,0,,javascript:;,Hope lights the way.
+134,132,Package Corded,fa-solid fa-baseball-bat-ball,FALSE,0,0,,javascript:;,Knowledge is power.
+135,132,Impossible lock of time,fa-solid fa-basket-shopping,FALSE,0,0,,javascript:;,Imagination fuels innovation.
+136,132,Package taped,fa-solid fa-basketball,FALSE,0,0,,javascript:;,Knowledge is power.
+137,132,Original replaced by,fa-solid fa-bath,FALSE,0,0,,javascript:;,Time waits for no one.
+138,81,Button,fa-solid fa-battery-empty,FALSE,0,0,,javascript:;,Knowledge is power.
+139,138,Save ,fa-solid fa-battery-full,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+140,138,Print,fa-solid fa-battery-half,FALSE,0,0,,javascript:;,Believe in yourself.
+141,138,Void,fa-solid fa-battery-quarter,FALSE,0,0,,javascript:;,Kindness costs nothing.
+142,138,New,fa-solid fa-battery-three-quarters,FALSE,0,0,,javascript:;,Love heals all wounds.
+143,138,find,fa-brands fa-battle.net,FALSE,0,0,,javascript:;,Time waits for no one.
+144,9,Report Cargo Out,fa-solid fa-bed,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+145,3,Storage,fa-solid fa-bed-pulse,FALSE,0,0,,javascript:;,Change begins with you.
+146,145,Stock Opname,fa-solid fa-beer-mug-empty,FALSE,0,0,,javascript:;,Time waits for no one.
+147,146,Subtopic 1,fa-brands fa-behance,FALSE,0,0,,javascript:;,Courage conquers fear.
+148,146,Subtopic 2,fa-solid fa-bell,FALSE,0,0,,javascript:;,Believe in yourself.
+149,146,Subtopic 3,fa-regular fa-bell,FALSE,0,0,,javascript:;,Courage conquers fear.
+150,146,Subtopic 4,fa-solid fa-bell-concierge,FALSE,0,0,,javascript:;,Time waits for no one.
+151,146,Subtopic 5,fa-solid fa-bell-slash,FALSE,0,0,,javascript:;,Dream big and work hard.
+152,146,Subtopic 6,fa-regular fa-bell-slash,FALSE,0,0,,javascript:;,Gratitude amplifies joy.
+153,145,Location,fa-solid fa-bezier-curve,FALSE,0,0,,javascript:;,Change begins with you.
+154,153,Button,fa-solid fa-bicycle,FALSE,0,0,,javascript:;,Courage conquers fear.
+155,154,Save ,fa-brands fa-bilibili,FALSE,0,0,,javascript:;,Change begins with you.
+156,154,Print,fa-brands fa-bimobject,FALSE,0,0,,javascript:;,Success requires effort.
+157,154,Void,fa-solid fa-binoculars,FALSE,0,0,,javascript:;,Change begins with you.
+158,154,New,fa-solid fa-biohazard,FALSE,0,0,,javascript:;,Hard work beats talent.
+159,154,Load,fa-brands fa-bitbucket,FALSE,0,0,,javascript:;,Hard work beats talent.
+160,154,find,fa-brands fa-bitcoin,FALSE,0,0,,javascript:;,Gratitude amplifies joy.
+161,154,Subtopic 7,fa-solid fa-bitcoin-sign,FALSE,0,0,,javascript:;,Gratitude amplifies joy.
+162,153,Subtopic 2,fa-brands fa-bity,FALSE,0,0,,javascript:;,Hope lights the way.
+163,3,Doc Process,fa-brands fa-font-awesome-black-tie,FALSE,0,0,,javascript:;,Peace starts from the heart.
+164,163,Notice of Arrival,fa-brands fa-blackberry,FALSE,0,0,,javascript:;,Life is a journey.
+165,163,Doc Delivery,fa-solid fa-blender,FALSE,0,0,,javascript:;,Happiness comes from within.
+166,163,Monitoring Doc Delivery,fa-solid fa-blender-phone,FALSE,0,0,,javascript:;,Courage conquers fear.
+167,163,Proof of Delivery,fa-solid fa-blog,FALSE,0,0,,javascript:;,Time waits for no one.
+168,3,Cashier,fa-brands fa-blogger,FALSE,0,0,,javascript:;,Love heals all wounds.
+169,168,Inv Simulation,fa-brands fa-blogger-b,FALSE,0,0,,javascript:;,Hope lights the way.
+170,168,Invoice,fa-brands fa-bluesky,FALSE,0,0,,javascript:;,Time waits for no one.
+171,168,Others Invoice,fa-brands fa-bluetooth,FALSE,0,0,,javascript:;,Time waits for no one.
+172,168,Update Tax No#,fa-brands fa-bluetooth,FALSE,0,0,,javascript:;,Optimism breeds success.
+173,168,Invoice Recap,fa-solid fa-bold,FALSE,0,0,,javascript:;,Time waits for no one.
+174,4,Acceptance,fa-solid fa-bolt,FALSE,0,0,,javascript:;,Time waits for no one.
+175,174,Booking Status,fa-solid fa-bolt-lightning,FALSE,0,0,,javascript:;,Failure is a stepping stone.
+176,174,Approval,fa-solid fa-bomb,FALSE,0,0,,javascript:;,Imagination fuels innovation.
+177,176,MAWB - HAWB,fa-solid fa-bone,FALSE,0,0,,javascript:;,Knowledge is power.
+178,176,Airlines Code,fa-solid fa-bong,FALSE,0,0,,javascript:;,Kindness costs nothing.
+179,176,Part of Pieces,fa-solid fa-book,FALSE,0,0,,javascript:;,Life is a journey.
+180,176,Packaging Types,fa-solid fa-book-atlas,FALSE,0,0,,javascript:;,Change begins with you.
+181,176,Shipper Code,fa-solid fa-book-bible,FALSE,0,0,,javascript:;,Life is a journey.
+182,176,Agent Code,fa-solid fa-book-bookmark,FALSE,0,0,,javascript:;,Love heals all wounds.
+183,176,Consignee Code,fa-solid fa-book-journal-whills,FALSE,0,0,,javascript:;,Gratitude amplifies joy.
+184,176,Shipper PIC,fa-solid fa-book-medical,FALSE,0,0,,javascript:;,Life is a journey.
+185,176,Phone Number,fa-solid fa-book-open,FALSE,0,0,,javascript:;,Change begins with you.
+186,176,Origin Dest Code,fa-solid fa-book-open-reader,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+187,176,Kind,fa-solid fa-book-quran,FALSE,0,0,,javascript:;,Life is a journey.
+188,174,Cargo Weighing Proof,fa-solid fa-book-skull,FALSE,0,0,,javascript:;,Gratitude amplifies joy.
+189,174,Weighing Recapitulation,fa-solid fa-book-tanakh,FALSE,0,0,,javascript:;,Time waits for no one.
+190,174,Labeling Package,fa-solid fa-bookmark,FALSE,0,0,,javascript:;,Believe in yourself.
+191,4,Cashier,fa-regular fa-bookmark,FALSE,0,0,,javascript:;,Dream big and work hard.
+192,191,Inv Simulation,fa-brands fa-bootstrap,FALSE,0,0,,javascript:;,Success requires effort.
+193,191,Others Invoice,fa-solid fa-border-all,FALSE,0,0,,javascript:;,Kindness costs nothing.
+194,191,Add Overstay Invoice,fa-solid fa-border-none,FALSE,0,0,,javascript:;,Kindness costs nothing.
+195,191,Update Tax No#,fa-solid fa-border-top-left,FALSE,0,0,,javascript:;,Change begins with you.
+196,191,Monitoring CWP,fa-solid fa-bore-hole,FALSE,0,0,,javascript:;,Courage conquers fear.
+197,4,Storage,fa-brands fa-bots,FALSE,0,0,,javascript:;,Kindness costs nothing.
+198,197,Stock Opname,fa-solid fa-bottle-droplet,FALSE,0,0,,javascript:;,Change begins with you.
+199,4,Checker,fa-solid fa-bottle-water,FALSE,0,0,,javascript:;,Happiness comes from within.
+200,199,Build Up,fa-solid fa-bowl-food,FALSE,0,0,,javascript:;,Happiness comes from within.
+201,199,ULD Report,fa-solid fa-bowl-rice,FALSE,0,0,,javascript:;,Life is a journey.
+202,5,Daily Report Service Charge,fa-solid fa-bowling-ball,FALSE,0,0,,javascript:;,Patience leads to wisdom.
+203,5,Daily Report by Agreement,fa-solid fa-box,FALSE,0,0,,javascript:;,Imagination fuels innovation.
+204,5,Daily Report Taxes,fa-solid fa-box-archive,FALSE,0,0,,javascript:;,Peace starts from the heart.
+205,5,SIGO Report,fa-solid fa-box-open,FALSE,0,0,,javascript:;,Gratitude amplifies joy.
+206,6,Configuration,fa-solid fa-box-tissue,FALSE,0,0,,javascript:;,Hard work beats talent.
+207,6,FWB,fa-solid fa-boxes-packing,FALSE,0,0,,javascript:;,Optimism breeds success.
+208,6,FFM,fa-solid fa-boxes-stacked,FALSE,0,0,,javascript:;,Hard work beats talent.
+209,6,FHL,fa-solid fa-braille,FALSE,0,0,,javascript:;,Success requires effort.
+210,7,TPS Online,fa-solid fa-brain,FALSE,0,0,,javascript:;,Believe in yourself.
+211,7,PLP Online,fa-brands fa-brave,FALSE,0,0,,javascript:;,Life is a journey.
+212,7,Manifest BC11,fa-brands fa-brave-reverse,FALSE,0,0,,javascript:;,Failure is a stepping stone.
+213,7,Scan gate IN,fa-solid fa-brazilian-real-sign,FALSE,0,0,,javascript:;,Success requires effort.
+214,7,Scan gate Out,fa-solid fa-bread-slice,FALSE,0,0,,javascript:;,Optimism breeds success.
+215,7,Tools,fa-solid fa-bridge,FALSE,0,0,,javascript:;,Time waits for no one.
+216,8,Customers,fa-solid fa-bridge-circle-check,FALSE,0,0,,javascript:;,Believe in yourself.
+217,8,Deposit,fa-solid fa-bridge-circle-exclamation,FALSE,0,0,,javascript:;,Success requires effort.
+218,8,E Faktur,fa-solid fa-bridge-circle-xmark,FALSE,0,0,,javascript:;,Courage conquers fear.
+219,8,User ID,fa-solid fa-bridge-lock,FALSE,0,0,,javascript:;,Kindness costs nothing.
+220,8,Permission,fa-solid fa-bridge-water,FALSE,0,0,,javascript:;,Success requires effort.
+221,8,Location,fa-solid fa-briefcase,FALSE,0,0,,javascript:;,Happiness comes from within.
+222,8,Rak,fa-solid fa-briefcase-medical,FALSE,0,0,,javascript:;,Gratitude amplifies joy.
+223,8,Airlines,fa-solid fa-broom,FALSE,0,0,,javascript:;,Knowledge is power.
+224,8,Flight No#,fa-solid fa-broom-ball,FALSE,0,0,,javascript:;,Imagination fuels innovation.
+225,8,Route,fa-solid fa-brush,FALSE,0,0,,javascript:;,Imagination fuels innovation.
+226,8,AirPort,fa-brands fa-btc,FALSE,0,0,,javascript:;,Knowledge is power.
+227,8,Country Code,fa-solid fa-bucket,FALSE,0,0,,javascript:;,Knowledge is power.
+228,8,Place Code,fa-brands fa-buffer,FALSE,0,0,,javascript:;,Kindness costs nothing.
+229,8,Harmonized Code,fa-solid fa-bug,FALSE,0,0,,javascript:;,Believe in yourself.
+230,8,Nature of Good,fa-solid fa-bug-slash,FALSE,0,0,,javascript:;,Hard work beats talent.
+231,8,Warehouse Operator,fa-solid fa-bugs,FALSE,0,0,,javascript:;,Patience leads to wisdom.
