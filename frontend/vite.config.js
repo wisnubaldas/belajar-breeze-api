@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import vituum from 'vituum'
 import pug from '@vituum/vite-plugin-pug'
+import path from 'path';
 
 export default defineConfig({
     // root: './frontend',
@@ -8,7 +9,10 @@ export default defineConfig({
     build: {
         outDir: 'dist', // Output untuk build
         rollupOptions: {
-            input: 'src/pages/index.pug'
+            input: [
+                'src/pages/index.pug',
+                'src/pages/auth/login.pug', // Update the path to the login page
+            ],
         },
     },
     plugins: [
@@ -23,6 +27,7 @@ export default defineConfig({
             '@plugins': '/plugins', // Alias untuk folder plugins
             '@components': '/src/components', // Alias untuk komponen
             '@pages': '/src/pages', // Alias untuk halaman
+            'ziggy-js': path.resolve('../vendor/tightenco/ziggy'),
         },
     },
     server: {

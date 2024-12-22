@@ -1,5 +1,3 @@
-const crypto = require('crypto');
-const fs = require('fs');
-const path = require('path');
+import { route } from 'ziggy-js';
+import { Ziggy } from './ziggy';
 
-const generateCsrfToken = () => crypto.randomBytes(16).toString('hex');

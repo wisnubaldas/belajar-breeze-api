@@ -19,22 +19,9 @@ body
         a.btn.btn-icon.btn-circle.btn-success.btn-scroll-to-top(href='javascript:;' data-toggle='scroll-to-top')
             i.fa.fa-angle-up
      
-    //- script(type="module", src="./script/vendor.min.js")  
-    //- script(type="module", src="./script/app.min.js")  
-    //- script(type="module", src="./script/theme/default.min.js")
-    //- script(type="module", src="./script/main.js")
+    script(type="module", src="/script/vendor.min.js")  
+    script(type="module", src="/script/app.min.js")  
+    script(type="module", src="/script/theme/default.min.js")
+    script(type="module", src="/script/main.js")
     script. 
-
-        //- Baldas.lib.menuTree(function(r){
-        //-     let menu = Baldas.Template.menuHeader({menu:r});
-        //-     $('#mega-menu').html(menu);
-        //- });
-
-        //- $('#mega-menu').on('click','.child-tmbl',function(){
-        //-     const wgetMenu = $(this).data('json');
-        //-     const banke = Baldas.Template.dinamicMenu({data:wgetMenu})
-        //-     Baldas.lib.animateCSS('#content','backInRight')
-        //-     $('#content').html(banke)
-        //- });
-
     block js

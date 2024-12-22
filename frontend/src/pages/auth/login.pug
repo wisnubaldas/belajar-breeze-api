@@ -1,0 +1,45 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title Color Admin | Login
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+    meta(name="description" content="")
+    meta(name="author" content="")
+    link(rel="stylesheet" href="/styles/main.css")
+    block css
+  body.pace-top
+    #loader.app-loader
+      span.spinner
+    #app.app
+      .login.login-v1
+        .login-container
+          .login-header
+            .brand
+              .d-flex.align-items-center
+                span.logo
+                b Color Admin
+              small Bootstrap 5 Responsive Admin Template
+            .icon
+              i.fa.fa-lock
+          .login-body
+            .login-content.fs-13px
+              form(action="index.html" method="GET")
+                .form-floating.mb-20px
+                  input.form-control.fs-13px.h-45px(type="email" id="emailAddress" placeholder="Email Address")
+                  label.d-flex.align-items-center.py-0(for="emailAddress") Email Address
+                .form-floating.mb-20px
+                  input.form-control.fs-13px.h-45px(type="password" id="password" placeholder="Password")
+                  label.d-flex.align-items-center.py-0(for="password") Password
+                .form-check.mb-20px
+                  input.form-check-input(type="checkbox" id="rememberMe")
+                  label.form-check-label(for="rememberMe") Remember Me
+                .login-buttons
+                  button.btn.h-45px.btn-success.d-block.w-100.btn-lg(type="submit") Sign me in
+      a.btn.btn-icon.btn-circle.btn-success.btn-scroll-to-top(href="javascript:;" data-toggle="scroll-to-top")
+        i.fa.fa-angle-up
+    script(type="module", src="/script/vendor.min.js")  
+    script(type="module", src="/script/app.min.js")  
+    script(type="module", src="/script/theme/default.min.js")
+    script(type="module", src="/script/main.js")
+    block js 
