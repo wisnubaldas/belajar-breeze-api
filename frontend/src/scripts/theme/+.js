@@ -1,0 +1,6 @@
+import './apple.min.js'
+import './default.min.js'
+import './facebook.min.js'
+import './google.min.js'
+import './material.min.js'
+import './transparent.min.js'

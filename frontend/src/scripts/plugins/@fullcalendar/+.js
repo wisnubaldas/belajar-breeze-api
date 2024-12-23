@@ -1,0 +1,6 @@
+import './bootstrap/+.js'
+import './core/+.js'
+import './daygrid/+.js'
+import './interaction/+.js'
+import './list/+.js'
+import './timegrid/+.js'

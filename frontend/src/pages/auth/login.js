@@ -1,6 +1,6 @@
 import axios from "axios";
 import { route } from 'ziggy-js';
-import { Ziggy } from '/script/ziggy';
+import { Ziggy } from '@scripts/ziggy';
 jQuery(function ($) {
     // Login form submit event
     $('.login-buttons').on('click', function (event) {

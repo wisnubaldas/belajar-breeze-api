@@ -1,0 +1,1 @@
+import './jszip.min.js'

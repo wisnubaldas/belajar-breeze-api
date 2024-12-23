@@ -1,0 +1,1 @@
+import './switchery.min.js'

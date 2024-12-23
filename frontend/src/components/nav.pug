@@ -1,4 +1,22 @@
-ul(id="navigation")
-    each item in ['index', 'about', 'hello','bangke nih']
-        li
-            a(href="/" + item)=item
+.navbar-nav
+    .navbar-item.dropdown.dropdown-lg()
+        a.navbar-link.dropdown-toggle.d-flex.align-items-center
+        i.fa.fa-th-large.fa-fw.me-1
+        span.d-lg-inline.d-md-none Start Here
+        b.caret.ms-1
+        .dropdown-menu.dropdown-menu-lg
+        #mega-menu.row
+            .row
+                .col-lg-4.col-md-4
+                    .h5.fw-bolder.mb-2
+                        i(class="fas fa-lg fa-fw me-10px text-lime-500") belekok
+                        span(class="text-purple")
+                    .row
+                        .col-lg-6
+                            ul.nav.d-block.fw-bold
+                                    li
+                                        a.text-ellipsis.text-decoration-none
+                                            i.fa.fa-chevron-right.fa-fw.text-gray-500
+                                            span Dashboard
+                        
+                    hr

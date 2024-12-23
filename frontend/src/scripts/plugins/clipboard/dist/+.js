@@ -1,0 +1,1 @@
+import './clipboard.min.js'

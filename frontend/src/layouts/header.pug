@@ -14,20 +14,6 @@
             span.icon-bar
             span.icon-bar
     #top-navbar.collapse.d-md-block.me-auto
-          .navbar-nav
-            .navbar-item.dropdown.dropdown-lg(x-data="{ isHovered: false }")
-              a.navbar-link.dropdown-toggle.d-flex.align-items-center(
-                                    href='#', 
-                                    data-bs-toggle='dropdown' 
-                                    @mouseover="isHovered = true" 
-                                    @mouseout="isHovered = false"  
-                                    :class="{ 'text-purple-500 fw-800 fs-3': isHovered, 'text-black-500': !isHovered }")
-                i.fa.fa-th-large.fa-fw.me-1
-                span.d-lg-inline.d-md-none Start Here
-                b.caret.ms-1
-              .dropdown-menu.dropdown-menu-lg
-                #mega-menu.row
-                
     .navbar-nav
         .navbar-item.navbar-form
             form(action='', method='POST', name='search')

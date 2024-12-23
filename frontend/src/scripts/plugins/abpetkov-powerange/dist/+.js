@@ -1,0 +1,1 @@
+import './powerange.min.js'
