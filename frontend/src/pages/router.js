@@ -1,38 +1,35 @@
 import Navigo from 'navigo';
+import {Helper} from "@scripts/helper";
+import Hello from '../components/hello.pug?raw';
 
+const helper = new Helper();
 const router = new Navigo('/');
 
 function loadIndexPage() {
-    fetch('/src/pages/index.pug')
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById('app').innerHTML = html;
-        })
-        .catch(error => console.error('Error loading index page:', error));
+    if (helper.checkAuth()) {
+        window.location.href = '/dashboard';
+    } else {
+        window.location.href = '/auth/login';
+    }
 }
 
 function loadLoginPage() {
-    window.location.href = '/dist/auth/login.html';
+    window.location.href = '/auth/login';
 }
 
 function loadHelloComponent() {
-    fetch('/src/pages/hello.pug')
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById('content').innerHTML = html;
-        })
-        .catch(error => console.error('Error loading hello component:', error));
+    document.getElementById('content').innerHTML = Hello();
 }
-
 router.on('/', () => {
     loadIndexPage();
 });
-
-router.on('/login', () => {
-    loadLoginPage();
+router.on('/dashboard', () => {
+    if(!helper.checkAuth()){
+        window.location.href = '/auth/login';
+    }
 });
 
-router.on('/hello', () => {
+router.on('#/hello', () => {
     loadHelloComponent();
 });
 

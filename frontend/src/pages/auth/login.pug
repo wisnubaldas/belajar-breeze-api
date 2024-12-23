@@ -24,7 +24,7 @@ html(lang="en")
               i.fa.fa-lock
           .login-body
             .login-content.fs-13px
-              form(action="index.html" method="GET")
+              form(action="#" method="POST")
                 .form-floating.mb-20px
                   input.form-control.fs-13px.h-45px(type="email" id="emailAddress" placeholder="Email Address")
                   label.d-flex.align-items-center.py-0(for="emailAddress") Email Address
@@ -40,6 +40,6 @@ html(lang="en")
         i.fa.fa-angle-up
     script(type="module", src="/script/vendor.min.js")  
     script(type="module", src="/script/app.min.js")  
-    script(type="module", src="/script/theme/default.min.js")
-    script(type="module", src="/script/main.js")
-    block js 
+    script(type="module", src="/script/theme/default.min.js?")
+    script(type="module", src="/src/pages/auth/login.js?inline")
+    block js

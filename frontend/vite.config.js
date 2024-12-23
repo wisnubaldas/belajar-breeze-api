@@ -5,9 +5,10 @@ import path from 'path';
 
 export default defineConfig({
     // root: './frontend',
-    base: process.env.NODE_ENV === 'production' ? '/dist/' : '/',
+    base: process.env.NODE_ENV === 'production' ? '/' : '/',
     build: {
         outDir: 'dist', // Output untuk build
+        sourcemap: false, // Disable source maps
         rollupOptions: {
             input: [
                 'src/pages/index.pug',
@@ -33,5 +34,11 @@ export default defineConfig({
     server: {
         port: 3000, // Port server dev
         open: true, // Membuka browser otomatis saat server berjalan
+    },
+    preview: {
+        port: 8080, // Port server prod
+        open: false, // Tidak membuka browser otomatis saat server berjalan
+        root: 'dist', // Root directory for the preview server
+        base: '/', // Base URL for the preview server
     },
 });
